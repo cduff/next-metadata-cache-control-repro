@@ -1,5 +1,7 @@
 # Metadata routes ignore `revalidate` in their `Cache-Control` header
 
+Reproduction for [vercel/next.js#99715](https://github.com/vercel/next.js/issues/99715).
+
 Minimal reproduction based on [`reproduction-template`](https://github.com/vercel/next.js/tree/canary/examples/reproduction-template).
 
 Four routes, all with `export const revalidate = 3600`:
