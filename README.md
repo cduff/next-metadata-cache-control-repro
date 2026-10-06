@@ -23,7 +23,7 @@ npm run check
 
 `npm run check` runs `check-headers.mjs`, which requests each route from `http://localhost:3000` and prints `x-nextjs-cache`, `cache-control` and `etag`.
 
-## Result (16.4.0-canary.60, same with `--webpack` and on 16.3.8)
+## Result (16.4.0-canary.61, same with `--webpack` and on 16.3.8)
 
 ```
 /isr          x-nextjs-cache: HIT   cache-control: s-maxage=3600, stale-while-revalidate=31532400   etag: "…"
